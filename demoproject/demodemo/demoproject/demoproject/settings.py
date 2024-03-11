@@ -79,9 +79,8 @@ WSGI_APPLICATION = 'demoproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'project_demoproject',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': 'project_demoproject'
+        
     }
 }
 
