@@ -80,6 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'project_demoproject'
+        'USER': 'root',
+        'PASSWORD': '',
         
     }
 }
